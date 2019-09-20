@@ -37,7 +37,7 @@ uint16_t rec_buffer;
 #define LORA_DATARATE 7//10
 #define LORA_CODERATE 1
 #define LORA_PREAMBLE_LEN 8
-
+/*
 
 extern  TimerTime_t HW_RTC_GetCalendarValue( RTC_DateTypeDef* RTC_DateStruct, RTC_TimeTypeDef* RTC_TimeStruct );
 
@@ -70,7 +70,7 @@ void HW_RTC_TestLoop( void )
 		prev = next;
 	}
 }
-
+*/
 static void gpioCallback()
 {
 	//BSP_LED_On(LED3);
